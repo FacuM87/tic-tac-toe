@@ -1,0 +1,29 @@
+:root{
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.juego{
+  display: grid;
+  place-content: center;
+  gap: 20px;
+}
+
+.grilla{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  margin-top: 20px;
+}
+
+.cuadrado{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.cuadrado:hover{
+  background-color: rgb(223, 219, 219);
+}
