@@ -1,0 +1,6 @@
+.signInModal{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: darkgray;
+    z-index: 20;
+}
