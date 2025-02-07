@@ -1,0 +1,27 @@
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.githubLink{
+    color: rgb(161, 155, 155);
+    transition: all ease-in-out 200ms;
+    padding-left: 10px;
+}
+
+.githubLink:hover{
+    color: black;
+}
+
+.linkedInLink{
+    color: rgb(161, 155, 155);
+    transition: all ease-in-out 200ms;
+    padding-left: 5px;
+}
+
+.linkedInLink:hover{
+    color: rgb(13, 0, 252)
+}

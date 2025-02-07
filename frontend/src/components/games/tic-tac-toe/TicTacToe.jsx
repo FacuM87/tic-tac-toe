@@ -43,7 +43,7 @@ const TicTacToe = () => {
     }
 
     return (
-        <div className='juego'>
+        <main className='juego'>
             <h1>Tic Tac Toe</h1>
             <div className='grilla'>
                 {board.map((cuadrado, index) => <button className='cuadrado' key={index} onClick={() => handleClick(index)}>{cuadrado}</button>)}
@@ -51,7 +51,7 @@ const TicTacToe = () => {
             <div>
                 <button onClick={() => { setBoard(Array(9).fill(null)) }}> Reset </button>
             </div>
-        </div>
+        </main>
 
     )
 }

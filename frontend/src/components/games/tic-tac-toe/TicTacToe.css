@@ -1,7 +1,8 @@
 .juego {
     display: grid;
-    place-content: center;
+    place-content: start center;
     gap: 20px;
+    flex-grow: 1;
 }
 
 .juego h1{
