@@ -12,7 +12,7 @@ const SignIn = () => {
     };
 
     try {
-      const serverResponse = await fetch("localhost:3000/api/auth/signIn",{
+      const serverResponse = await fetch("http://localhost:3000/api/auth/signIn",{
         headers: {"Content-Type": "application/json"},
         method: "POST",
         body: JSON.stringify(loginData)
