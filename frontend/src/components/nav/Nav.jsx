@@ -5,7 +5,7 @@ import SignIn from '../SignIn-SignUp/SignIn/SignIn'
 
 const Nav = () => {
     const [signInModal, setSignInModal] = useState(false)
-    const handleSubmit = () => { }
+    
 
     return (
         <>

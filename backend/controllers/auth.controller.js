@@ -5,6 +5,7 @@ import { validatePassword } from "../utils/bcrypt.js"
 export const signIn = async (req, res) => {
     try {
         const {email, password} = req.body
+        
         if(!email || !password){return res.status(400).json({status:"fail signing in", message:"All fields are required"})}
 
         const user = await User.findOne({email})
