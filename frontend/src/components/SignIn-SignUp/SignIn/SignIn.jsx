@@ -1,7 +1,9 @@
 import React from 'react'
 import "./SignIn.css"
+import { useUserStore } from '../../../hooks/userStore.js';
 
 const SignIn = () => {
+  const setUser = useUserStore((state) => state.setUser);
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -21,14 +23,14 @@ const SignIn = () => {
       const data = await serverResponse.json();
     
       console.log(data);
+      await setUser(data)
       
+
     } catch (error) {
       console.error("Couldnt Login: "+error);
       ;
       
     }
-      
-    
   }
 
   return (

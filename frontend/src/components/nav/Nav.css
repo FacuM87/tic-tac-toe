@@ -34,3 +34,19 @@
     padding-right: 20px;
     transform: scale(1.1);
 }
+
+.profile-logout-section{
+    display: flex;
+    gap: 5px;
+}
+
+
+.logout-btn{
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease-in-out 200ms;
+}
+
+.logout-btn:hover{
+    background-color: lightgrey;
+}
