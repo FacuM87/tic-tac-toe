@@ -1,11 +1,12 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
 body{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
-.container{
-    display: flex;
-    flex-direction: column;
 
-    min-height: 100vh;
-}

@@ -1,8 +1,11 @@
 import React from 'react'
+import "./Snake.css"
 
 const Snake = () => {
   return (
-    <div>Snake</div>
+    <main className='snake-container'>
+      <p>Snake</p>
+    </main>
   )
 }
 

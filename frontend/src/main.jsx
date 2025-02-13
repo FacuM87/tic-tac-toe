@@ -12,7 +12,7 @@ import './main.css'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
-    <div className='container'>
+    <div className='flex flex-col min-h-dvh'>
       <Nav/>
       <Routes>
         <Route path='/' element={<Home />} />
@@ -24,3 +24,4 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </StrictMode>,
 )
+

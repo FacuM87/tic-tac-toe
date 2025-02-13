@@ -4,8 +4,8 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <footer className="w-full py-4 flex justify-center items-center text-gray-700 mt-4">
-            <p className="text-sm">Facundo Mingorance 2024-2025 |</p>
+        <footer className="pb-2">
+            <p className="">Facundo Mingorance 2024-2025 |</p>
             <a href="https://github.com/FacuM87" target="_blank" rel="noopener noreferrer" className="githubLink mx-2 text-gray-700 hover:text-black">
                 <FaGithub size={20} />
             </a>

@@ -1,0 +1,7 @@
+
+.snake-container{
+    display: grid;
+    place-content: center;
+    font-size:x-large;
+    flex-grow: 1;
+}
